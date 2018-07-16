@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import { Parallax, ParallaxLayer } from 'react-spring'
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
-import { Black_Circle } from './Black_Circle.svg';
 
 class App extends Component {
   render() {
