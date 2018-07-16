@@ -178,3 +178,18 @@
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+
+@media screen and (max-width: 768px) {
+  .main-font {
+    font-size: 2rem;
+  }
+
+  .name-font {
+    font-size: 1.5rem;
+  }
+
+  .nav-list-font {
+    font-size: 1rem;
+  }
+}

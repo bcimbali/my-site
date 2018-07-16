@@ -14,18 +14,26 @@ class App extends Component {
         <Navbar/>
         <ScrollableAnchor id={'section1'}>
           <div className='bg-color page container-fluid'> 
-            <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center">
-                <div className="hvr-wobble-skew">
+            <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">
+                <div className="col hvr-wobble-skew">
                   Hello, I'm Brett Cimbalik. I'm a front-end developer.
                 </div>
             </div>
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section2'}>
-          <div className='bg-color display-3 page'> Portfolio </div>
+        <div className='bg-color page container-fluid'> 
+          <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">
+            <div className='bg-color display-3 page main-font'> Portfolio </div>
+          </div>
+        </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section3'}>
-          <div className='bg-color display-3 page'> Contact </div>
+        <div className='bg-color page container-fluid'> 
+          <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">  
+            <div className='bg-color display-3 page main-font'> Contact </div>
+          </div>
+        </div>
         </ScrollableAnchor>
       </div>
     );
