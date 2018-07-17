@@ -8,7 +8,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 
 class App extends Component {
   render() {
-    configureAnchors({offset: -80, scrollDuration: 800})
+    configureAnchors({offset: -80, scrollDuration: 700})
     return (
       <div className='body'>
         <Navbar/>
@@ -24,14 +24,18 @@ class App extends Component {
         <ScrollableAnchor id={'section2'}>
         <div className='bg-color page container-fluid'> 
           <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">
-            <div className='bg-color display-3 page main-font'> Portfolio </div>
+            <div className='bg-color col main-font'> 
+            Portfolio 
+            </div>
           </div>
         </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section3'}>
         <div className='bg-color page container-fluid'> 
           <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">  
-            <div className='bg-color display-3 page main-font'> Contact </div>
+            <div className='bg-color display-3 main-font'> 
+            Contact 
+            </div>
           </div>
         </div>
         </ScrollableAnchor>
