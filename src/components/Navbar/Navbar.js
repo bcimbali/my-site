@@ -13,9 +13,9 @@ class Navbar extends Component  {
         </button>
         <div class="collapse navbar-collapse mx-auto" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto nav-list-font">
-            <a class="hvr-buzz nav-item nav-link px-2" href="#section1">About</a>
-            <a class="hvr-buzz nav-item nav-link px-2" href="#section2">Portfolio</a>
-            <a class="hvr-buzz nav-item nav-link px-2" href="#section3">Contact</a>
+            <a class="hvr-buzz nav-item nav-link px-2" href="#section2">About</a>
+            <a class="hvr-buzz nav-item nav-link px-2" href="#section3">Portfolio</a>
+            <a class="hvr-buzz nav-item nav-link px-2" href="#section4">Contact</a>
           </div>
         </div>
       </nav>

@@ -24,8 +24,9 @@ class App extends Component {
         <ScrollableAnchor id={'section2'}>
         <div className='bg-color page container-fluid'> 
           <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">
-            <div className='bg-color col main-font'> 
-            Portfolio 
+            <div className='about-font bg-color col'> 
+              I'm a web developer and programmer based in Chicago, IL. <br></br><br></br>
+              I make web applications, usually with the MERN stack. I primarily use Javascript, but learning a new language or framework isn't a hassle. I have several years of programming experience and am rather comfortable with front-end or back-end development.
             </div>
           </div>
         </div>
@@ -34,7 +35,17 @@ class App extends Component {
         <div className='bg-color page container-fluid'> 
           <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">  
             <div className='bg-color display-3 main-font'> 
-            Contact 
+            Portfolio
+            </div>
+          </div>
+        </div>
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'section4'}>
+        <div className='bg-color page container-fluid'> 
+          <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">  
+            <div className='about-font bg-color display-3'> 
+            Feel free to contact me at: <br></br><br></br>
+            hello [at] brettcimbalik [dot] com
             </div>
           </div>
         </div>
