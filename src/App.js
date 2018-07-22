@@ -14,9 +14,14 @@ class App extends Component {
         <Navbar/>
         <ScrollableAnchor id={'section1'}>
           <div className='bg-color page container-fluid'> 
-            <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">
-                <div className="col hvr-wobble-skew">
+            <div className="d-flex display-3 justify-content-center h-75 row align-items-center text-center main-font">
+                <div className="col fade-in">
                   Hello, I'm Brett Cimbalik. I'm a front-end developer.
+                </div>
+            </div>
+            <div className="d-flex display-3 justify-content-center h-25 row  text-center main-font">
+                <div className="col fade-in">
+                  <a class="text-dark" href="#section2" ><i class="fas fa-angle-down pulsate-bck"></i></a>
                 </div>
             </div>
           </div>
