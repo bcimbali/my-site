@@ -8,7 +8,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 
 class App extends Component {
   render() {
-    configureAnchors({offset: 0, scrollDuration: 700})
+    configureAnchors({offset: -75, scrollDuration: 700})
     return (
       <div className='body'>
         <Navbar/>
@@ -28,8 +28,13 @@ class App extends Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={'section2'}>
         <div className='bg-color page container-fluid'> 
-          <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">
-            <div className='about-font bg-color col'> 
+          <div className="d-flex display-3 justify-content-center h-50 row align-items-center text-center">
+            {/* <div className='bg-color col'>  */}
+              <img  class="border-dark img-fluid rounded-circle" src="./images/Profile_Pic.jpg"></img>
+            {/* </div> */}
+          </div>
+          <div className="d-flex display-3 justify-content-center h-50 row text-center main-font">
+            <div className='about-font bg-color col'>
               I'm a web developer and programmer based in Chicago, IL. <br></br><br></br>
               I make web applications, usually with the MERN stack. I primarily use Javascript, but learning a new language or framework isn't a hassle. I have several years of programming experience and am rather comfortable with front-end or back-end development.
             </div>
