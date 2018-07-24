@@ -8,7 +8,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 
 class App extends Component {
   render() {
-    configureAnchors({offset: -75, scrollDuration: 700})
+    configureAnchors({offset: -40, scrollDuration: 700})
     return (
       <div className='body'>
         <Navbar/>
