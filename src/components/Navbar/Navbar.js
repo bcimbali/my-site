@@ -1,23 +1,26 @@
 import React, {Component} from "react";
 
+
 class Navbar extends Component  {
+
+
 
   render() {
     
     return (
 
-      <nav class="bg-color border-bottom border-dark d-flex navbar navbar-expand-lg navbar-light sticky-top">
-        <a class="fade-in hvr-underline-from-center name-font navbar-brand font-weight-bold px-2" href="#section1">Brett Cimbalik</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <nav className="bg-color border-bottom border-dark d-flex navbar flex-nowrap justify-content-between navbar-expand-lg navbar-light sticky-top">
+        <a className="fade-in hvr-underline-from-center name-font navbar-brand font-weight-bold m-0 px-2" href="#section1">Brett Cimbalik</a>
+        {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mx-auto" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto nav-list-font">
-            <a class="fade-in hvr-underline-from-center nav-item nav-link px-2 text-dark" href="#section2">About</a>
-            <a class="fade-in hvr-underline-from-center nav-item nav-link px-2 text-dark" href="#section3">Portfolio</a>
-            <a class="fade-in hvr-underline-from-center nav-item nav-link px-2 text-dark" href="#section4">Contact</a>
+        </button> */}
+        {/* <div class=" mx-auto" id="navbarNavAltMarkup"> */}
+          <div className="d-flex justify-content-center ml-auto nav-list-font">
+            <a className="fade-in hvr-underline-from-center px-2 text-dark" href="#section2">About</a>
+            <a className="fade-in hvr-underline-from-center px-2 text-dark" href="#section3">Portfolio</a>
+            <a className="fade-in hvr-underline-from-center px-2 text-dark" href="#section4">Contact</a>
           </div>
-        </div>
+        {/* </div> */}
       </nav>
       );
     };

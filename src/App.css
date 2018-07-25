@@ -92,6 +92,11 @@
   transform: scale(1.1);
 }
 
+.img-resp {
+  max-width: 75%;
+  height: auto;
+}
+
 .margin-space {
   margin-top: 6vh;
 }
@@ -285,6 +290,10 @@
 	        animation: pulsate-bck 0.5s ease-in-out infinite both;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
@@ -297,10 +306,10 @@
   }
 
   .name-font {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .nav-list-font {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }

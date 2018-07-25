@@ -8,7 +8,7 @@ import { configureAnchors } from 'react-scrollable-anchor';
 
 class App extends Component {
   render() {
-    configureAnchors({offset: -75, scrollDuration: 700})
+    configureAnchors({offset: -40, scrollDuration: 700})
     return (
       <div className='body'>
         <Navbar/>
@@ -21,7 +21,7 @@ class App extends Component {
             </div>
             <div className="d-flex display-3 justify-content-center h-25 row  text-center main-font">
                 <div className="col fade-in">
-                  <a class="text-dark" href="#section2" ><i class="fas fa-angle-down pulsate-bck"></i></a>
+                  <a className="text-dark" href="#section2" ><i className="fas fa-angle-down pulsate-bck"></i></a>
                 </div>
             </div>
           </div>
@@ -30,7 +30,7 @@ class App extends Component {
         <div className='bg-color page container-fluid'> 
           <div className="display-3 h-50 row align-items-center">
             {/* <div className='bg-color col'>  */}
-              <img  class="border-dark img-fluid mx-auto rounded-circle" src="./images/Profile_Pic.jpg"></img>
+              <img  className="border-dark img-resp rounded-circle" src="./images/Profile_Pic.jpg"></img>
             {/* </div> */}
           </div>
           <div className="d-flex display-3 justify-content-center h-50 row text-center main-font">
