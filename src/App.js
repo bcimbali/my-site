@@ -28,9 +28,9 @@ class App extends Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={'section2'}>
         <div className='bg-color page container-fluid'> 
-          <div className="d-flex display-3 justify-content-center h-50 row align-items-center text-center">
+          <div className="display-3 h-50 row align-items-center">
             {/* <div className='bg-color col'>  */}
-              <img  class="border-dark img-fluid rounded-circle" src="./images/Profile_Pic.jpg"></img>
+              <img  class="border-dark img-fluid mx-auto rounded-circle" src="./images/Profile_Pic.jpg"></img>
             {/* </div> */}
           </div>
           <div className="d-flex display-3 justify-content-center h-50 row text-center main-font">
