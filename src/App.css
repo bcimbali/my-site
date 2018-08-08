@@ -43,6 +43,14 @@
   color: white;
 }
 
+.footer-icon {
+  color: white;
+}
+
+.footer-icon:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 @-webkit-keyframes hvr-buzz {
   50% {
     -webkit-transform: translateX(3px) rotate(2deg);
