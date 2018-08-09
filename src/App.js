@@ -50,10 +50,27 @@ class App extends Component {
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section3'}>
-          <div className='bg-color page container-fluid'> 
-            <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">  
-              <div data-aos="fade-left" className='bg-color display-3 main-font'> 
-                Portfolio
+          <div className='border border-danger bg-color page container-fluid'> 
+            <div className="border border-success d-flex display-3 justify-content-around row align-items-center text-center main-font">
+              <div className="col-md-4">  
+                <div data-aos="fade-left" className='border border-primary bg-color display-3 m-2 main-font'> 
+                  <img  className="img-fluid" src="./images/my_neighborhood_health_3.PNG"/>
+                </div>
+              </div>
+              <div className="col-md-4">  
+                <div data-aos="fade-right" className='border border-primary bg-color display-3 m-2 main-font'> 
+                  Box 2
+                </div>
+              </div>
+              <div className="col-md-4">  
+                <div data-aos="fade-left" className='border border-primary bg-color display-3 m-2 main-font'> 
+                  Box 3
+                </div>
+              </div>
+              <div className="col-md-4">  
+                <div data-aos="fade-right" className='border border-primary bg-color display-3 m-2 main-font'> 
+                  Box 4
+                </div>
               </div>
             </div>
           </div>
