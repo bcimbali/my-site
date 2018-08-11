@@ -3,13 +3,30 @@ import './App.css';
 // import { Parallax, Background } from 'react-parallax';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import PortfolioCard from "./components/PortfolioCard";
 import { Parallax, ParallaxLayer } from 'react-spring'
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 import AOS from 'aos';
+import portfolio_pieces from "./portfolio_pieces.json";
 import 'aos/dist/aos.css';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      details: false,
+      portfolio_pieces: portfolio_pieces
+    }
+  }
+
+  toggle() {
+    const currentState = this.state.details;
+    this.setState({ details: !currentState });
+    console.log('After toggle works: ', this.state.details);
+  }
 
   componentDidMount() {
     AOS.init();
@@ -51,15 +68,24 @@ class App extends Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={'section3'}>
           <div className='border border-danger bg-color page container-fluid'> 
-            <div className="border border-success d-flex display-3 justify-content-around row align-items-center text-center main-font">
+            <div className="border border-success d-flex justify-content-around row h-100 align-items-center text-center">
+              
+              {this.state.portfolio_pieces.map(piece =>  (
+                <PortfolioCard 
+                  key={piece.id}
+                  id={piece.id}
+                  name={piece.name}
+                  image={piece.image}
+                  isOpen={this.state.details}
+                  toggle={this.toggle}
+                    
+                />
+              ))}
+              
               <div className="col-md-4">  
-                <div data-aos="fade-left" className='border border-primary bg-color display-3 m-2 main-font'> 
-                  <img  className="img-fluid" src="./images/my_neighborhood_health_3.PNG"/>
-                </div>
-              </div>
-              <div className="col-md-4">  
-                <div data-aos="fade-right" className='border border-primary bg-color display-3 m-2 main-font'> 
-                  Box 2
+                <div data-aos="fade-right" className='border border-primary bg-color mx-auto max-h'> 
+                  <img  className="img-fluid" src="./images/Cartographer_H_New_Screenshot.PNG"/>
+                  <p>Cartographer Hangman</p>
                 </div>
               </div>
               <div className="col-md-4">  
@@ -73,6 +99,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
+            
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section4'}>

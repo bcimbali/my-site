@@ -1,2 +1,1 @@
-# my-site
-My personal website
+# Prototype for my personal website
