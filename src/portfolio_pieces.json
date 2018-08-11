@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "My Neighborhood Health",
-        "image": "./images/my_neighborhood_health_3.PNG"
+        "image": "./images/my_neighborhood_health_3.PNG",
+        "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data, type of chemicals stored, and if any chemicals are known carcinogens."
     }
 ]

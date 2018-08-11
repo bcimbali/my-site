@@ -76,6 +76,7 @@ class App extends Component {
                   id={piece.id}
                   name={piece.name}
                   image={piece.image}
+                  description={piece.description}
                   isOpen={this.state.details}
                   toggle={this.toggle}
                     
