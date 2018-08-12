@@ -26,6 +26,9 @@
 .body, a {
   cursor: url('./black_circle_2.cur'), crosshair;
 }
+button {
+  cursor: url('./black_circle_2.cur'), crosshair;
+}
 .bg-color {
   background-color: #EFCDB2;
 }
@@ -40,9 +43,11 @@
   color: rgba(255, 255, 255, 0.5);
 }
 .modal-icon {
+  border: none;
   color: rgb(58, 59, 59);
 }
 .modal-icon:hover {
+  border: none;
   color: black;
 }
 .max-h {
@@ -67,6 +72,13 @@
 }
 .image {
   opacity: 1;
+}
+.remove-bootstrap-glow {
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
 }
 .portfolio-card:hover .image {
   opacity: 0.3;

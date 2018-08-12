@@ -16,8 +16,9 @@ class PortfolioModal extends Component  {
             </div>
             <div className="bg-color justify-content-between modal-footer">
                 <a href={this.props.live} target="_blank" ><i class="fas fa-2x fa-desktop modal-icon"></i></a>
-                <button type="button" className="btn btn-dark filter-btn" onClick={this.props.toggle}>
-                    Close
+                <a href={this.props.github} target="_blank" ><i class="fab fa-2x fa-github-alt modal-icon"></i></a>
+                <button className="bg-color modal-icon remove-bootstrap-glow" onClick={this.props.toggle}>
+                    <i className="fas fa-2x fa-times"></i>
                 </button>
             </div>
         </Modal>
