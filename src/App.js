@@ -88,7 +88,7 @@ class App extends Component {
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section3'}>
-          <div className='border border-danger bg-color page container-fluid'> 
+          <div className='border border-danger bg-color page container-fluid h-100'> 
             <div className="border border-success d-flex justify-content-around row h-100 align-items-center text-center">
               {this.state.portfolio_pieces.map(piece =>  (
                 <PortfolioCard 
