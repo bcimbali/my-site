@@ -39,6 +39,12 @@
 .footer-icon:hover {
   color: rgba(255, 255, 255, 0.5);
 }
+.modal-icon {
+  color: rgb(58, 59, 59);
+}
+.modal-icon:hover {
+  color: black;
+}
 .max-h {
   max-height: 300px;
   max-width: 400px;

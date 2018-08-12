@@ -106,6 +106,7 @@ class App extends Component {
                     isOpen={this.state.details}
                     description={this.state.selected_piece.description}
                     image={this.state.selected_piece.image}
+                    live={this.state.selected_piece.live}
                     toggle={this.toggle}
                     name={this.state.selected_piece.name}
               />

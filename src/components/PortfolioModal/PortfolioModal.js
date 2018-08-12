@@ -8,16 +8,17 @@ class PortfolioModal extends Component  {
     
     return (
         <Modal visible={this.props.isOpen} onClickBackdrop={this.props.toggle}>
-            <div className="modal-header mx-auto">
+            <div className="bg-color justify-content-center modal-header mx-auto w-100">
                 <h4 className="font-weight-bold modal-title">{this.props.name}</h4>
             </div>
-            <div className="modal-body">
+            <div className="bg-color modal-body">
                 <p>{this.props.description}</p>
             </div>
-            <div className="modal-footer">
+            <div className="bg-color justify-content-between modal-footer">
+                <a href={this.props.live} target="_blank" ><i class="fas fa-2x fa-desktop modal-icon"></i></a>
                 <button type="button" className="btn btn-dark filter-btn" onClick={this.props.toggle}>
-                Close
-            </button>
+                    Close
+                </button>
             </div>
         </Modal>
       );
