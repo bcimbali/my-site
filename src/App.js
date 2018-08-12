@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import PortfolioCard from "./components/PortfolioCard";
+import PortfolioModal from './components/PortfolioModal';
 import { Parallax, ParallaxLayer } from 'react-spring'
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
@@ -16,16 +17,36 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.toggle = this.toggle.bind(this);
+    this.modalHandler = this.modalHandler.bind(this);
+    this.populateModal = this.populateModal.bind(this);
     this.state = {
       details: false,
-      portfolio_pieces: portfolio_pieces
+      portfolio_pieces: portfolio_pieces,
+      selected_piece: {}
     }
   }
 
+  // Toggles the pop-up window state btwn true and false.
   toggle() {
     const currentState = this.state.details;
     this.setState({ details: !currentState });
     console.log('After toggle works: ', this.state.details);
+  }
+
+  // Populates the modal with the currently selected portfolio piece
+  populateModal(i) {
+    // return portfolio_pieces[info];
+    console.log("populateModal this: ", this);
+    this.setState({ selected_piece: portfolio_pieces[i]})
+    console.log("selected piece is now....: " , this.state.selected_piece)
+  }
+
+  // Wrapper function for "Learn More" onClick handler
+  modalHandler(event) {
+    // console.log("this in modal handler: ", this);
+    console.log("this is the event: ", event);
+    this.toggle();
+    this.populateModal(event);
   }
 
   componentDidMount() {
@@ -78,17 +99,17 @@ class App extends Component {
                   image={piece.image}
                   description={piece.description}
                   isOpen={this.state.details}
-                  toggle={this.toggle}
-                    
+                  modalHandler={this.modalHandler}
+                  toggle={this.toggle}  
                 />
               ))}
-              
-              <div className="col-md-4">  
-                <div data-aos="fade-right" className='border border-primary bg-color mx-auto max-h'> 
-                  <img  className="img-fluid" src="./images/Cartographer_H_New_Screenshot.PNG"/>
-                  <p>Cartographer Hangman</p>
-                </div>
-              </div>
+              <PortfolioModal
+                    isOpen={this.state.details}
+                    description={this.state.selected_piece.description}
+                    image={this.state.selected_piece.image}
+                    toggle={this.toggle}
+                    name={this.state.selected_piece.name}
+              />
               <div className="col-md-4">  
                 <div data-aos="fade-left" className='border border-primary bg-color display-3 m-2 main-font'> 
                   Box 3

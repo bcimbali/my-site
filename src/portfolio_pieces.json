@@ -4,5 +4,11 @@
         "name": "My Neighborhood Health",
         "image": "./images/my_neighborhood_health_3.PNG",
         "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data, type of chemicals stored, and if any chemicals are known carcinogens."
+    },
+    {   
+        "id": 2,
+        "name": "Cartographer Hangman",
+        "image": "./images/Cartographer_H_New_Screenshot.PNG",
+        "description": "A web app hangman game about all 50 states (and D.C.). Each correct guess illuminates a state. If you are stuck, click for a hint!"
     }
 ]
