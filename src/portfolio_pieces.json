@@ -10,5 +10,29 @@
         "name": "Cartographer Hangman",
         "image": "./images/Cartographer_H_New_Screenshot.PNG",
         "description": "A web app hangman game about all 50 states (and D.C.). Each correct guess illuminates a state. If you are stuck, click for a hint!"
+    },
+    {
+        "id": 3,
+        "name": "Twin Peaks Memory Game",
+        "image": "./images/click-game-screenshot.png",
+        "description": "A fun click game made with React. Click on a Twin Peaks character only once, but not twice, to win!"
+    },
+    {
+        "id": 4,
+        "name": "RA Event Listing Scraper",
+        "image": "./images/All_Events.png",
+        "description": "A web app that scrapes Resident Advisor events in the Chicago area, saves them to a database, and allows the user to add a note."
+    },
+    {
+        "id": 5,
+        "name": "LIRI",
+        "image": "./images/liri-screenshot.png",
+        "description": "A CLI that displays latest tweets, gets song info from Spotify, gathers info on a movie, or perform tasks from a text file."
+    },
+    {
+        "id": 6,
+        "name": "Recipe++",
+        "image": "./images/Recipes-page-screenshot.png",
+        "description": "Recipe++. It is a web app to search recipes and allows users to input the ingredients they have at home. You can also search the map for nearby restaurants."
     }
 ]

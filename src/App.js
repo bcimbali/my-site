@@ -90,7 +90,6 @@ class App extends Component {
         <ScrollableAnchor id={'section3'}>
           <div className='border border-danger bg-color page container-fluid'> 
             <div className="border border-success d-flex justify-content-around row h-100 align-items-center text-center">
-              
               {this.state.portfolio_pieces.map(piece =>  (
                 <PortfolioCard 
                   key={piece.id}
@@ -110,18 +109,7 @@ class App extends Component {
                     toggle={this.toggle}
                     name={this.state.selected_piece.name}
               />
-              <div className="col-md-4">  
-                <div data-aos="fade-left" className='border border-primary bg-color display-3 m-2 main-font'> 
-                  Box 3
-                </div>
-              </div>
-              <div className="col-md-4">  
-                <div data-aos="fade-right" className='border border-primary bg-color display-3 m-2 main-font'> 
-                  Box 4
-                </div>
-              </div>
             </div>
-            
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section4'}>
