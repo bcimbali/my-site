@@ -147,7 +147,8 @@ button {
   height: auto;
 }
 .max-h-img {
-  height: 30vh;
+  /* height: 30vh; */
+  height: auto;
 }
 .margin-space {
   margin-top: 6vh;
