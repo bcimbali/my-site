@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  */
+}
+
 /* Override text selection/highlight color to yellow. */
 ::-moz-selection { background: yellow; }
 ::selection { background: yellow; }
@@ -149,6 +158,8 @@ button {
 .max-h-img {
   /* height: 30vh; */
   height: auto;
+  max-height: 205px;
+  width: 100%;
 }
 .margin-space {
   margin-top: 6vh;
