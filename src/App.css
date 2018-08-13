@@ -32,6 +32,10 @@ button {
 .bg-color {
   background-color: #EFCDB2;
 }
+.carousel-img {
+  /* height: 200px; */
+  height: 30vh;
+}
 .footer {
   background-color: rgb(58, 59, 59);
   color: white;

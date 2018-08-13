@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Modal from 'react-bootstrap4-modal';
-
+import Carousel from './../Carousel';
 
 class PortfolioModal extends Component  {
 
@@ -12,7 +12,11 @@ class PortfolioModal extends Component  {
                 <h4 className="font-weight-bold modal-title">{this.props.name}</h4>
             </div>
             <div className="bg-color modal-body">
-                <img className="thumbnail img-fluid" src={this.props.image} />
+                <Carousel 
+                    imageOne={this.props.image}
+                />
+                {/* <img className="rounded thumbnail img-fluid" src={this.props.image} /> */}
+                
                 <p>{this.props.description}</p>
             </div>
             <div className="bg-color border-top-0 justify-content-between modal-footer">
