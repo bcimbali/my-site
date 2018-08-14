@@ -57,8 +57,8 @@ class App extends Component {
     configureAnchors({offset: -58, scrollDuration: 700})
     return (
       <div className='body'>
-        <Navbar/>
-        <ScrollableAnchor id={'section1'}>
+        <Navbar className="w-100"/>
+        <ScrollableAnchor className="w-100" id={'section1'}>
           <div className='bg-color page container-fluid'> 
             <div className="d-flex display-3 justify-content-center h-75 row align-items-center text-center main-font">
                 <div className="col fade-in">
@@ -72,9 +72,9 @@ class App extends Component {
             </div>
           </div>
         </ScrollableAnchor>
-        <ScrollableAnchor id={'section2'}>
+        <ScrollableAnchor className="w-100" id={'section2'}>
           <div className='bg-color page container-fluid'> 
-            <div className="display-3 h-50 row align-items-center">
+            <div className="h-50 row align-items-center">
               {/* <div className='bg-color col'>  */}
                 <img data-aos="fade-right"  className="border-dark img-resp mx-auto rounded-circle" alt="Brett" src="./images/Profile_Pic.jpg"></img>
               {/* </div> */}
