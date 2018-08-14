@@ -154,6 +154,7 @@ button {
 .img-resp {
   max-width: 55%;
   height: auto;
+  max-height: 50vh;
 }
 .max-h-img {
   /* height: 30vh; */
