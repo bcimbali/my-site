@@ -67,7 +67,7 @@ class App extends Component {
             </div>
             <div className="d-flex display-3 justify-content-center h-25 row  text-center main-font">
                 <div className="col fade-in">
-                  <a className="text-dark" href="#section2" ><i className="fas fa-angle-down pulsate-bck"></i></a>
+                  <a className="text-dark" href="#section2" ><i className="fas fa-2x fa-angle-down pulsate-bck"></i></a>
                 </div>
             </div>
           </div>
