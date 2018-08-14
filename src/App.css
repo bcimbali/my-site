@@ -6,7 +6,9 @@
     padding: 0px;
     overflow-x: hidden; 
 }
-
+.overflow-hidden {
+  overflow-x: hidden;
+}
 /* Override text selection/highlight color to yellow. */
 ::-moz-selection { background: yellow; }
 ::selection { background: yellow; }
