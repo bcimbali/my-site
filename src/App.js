@@ -54,7 +54,7 @@ class App extends Component {
   }
 
   render() {
-    configureAnchors({offset: -58, scrollDuration: 700})
+    configureAnchors({offset: 0, scrollDuration: 700})
     return (
       <div className='body'>
         <Navbar className="w-100"/>
