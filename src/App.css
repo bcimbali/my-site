@@ -1,3 +1,7 @@
+body {
+  font-family: 'Average Sans', sans-serif;
+}
+
 .body
 {
     width: auto;
@@ -14,6 +18,9 @@
 ::selection { background: yellow; }
 .about-font {
   font-size: 2rem;
+}
+.contact-font {
+  font-size: 3rem;
 }
 .App {
   text-align: center;
@@ -349,10 +356,16 @@ button {
 a {
   text-decoration: none !important;
 }
+
+
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .about-font {
     font-size: 1rem;
+  }
+  .contact-font {
+    font-size: 2rem;
   }
   .main-font {
     font-size: 2rem;

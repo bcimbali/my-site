@@ -117,9 +117,9 @@ class App extends Component {
         <ScrollableAnchor id={'section4'}>
           <div className='bg-color page container-fluid'> 
             <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">  
-              <div data-aos="fade-right" className='about-font bg-color display-3'> 
-              Feel free to contact me at: <br></br><br></br>
-              hello [at] brettcimbalik [dot] com
+              <div data-aos="fade-right" className='bg-color'> 
+                <p className="contact-font">Say hello: <br></br><br></br>
+                hello [at] brettcimbalik [dot] com</p>
               </div>
             </div>
           </div>
