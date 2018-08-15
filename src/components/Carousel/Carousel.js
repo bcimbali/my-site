@@ -18,10 +18,10 @@ class Carousel extends Component  {
                     <img className="carousel-img d-block w-100" src={this.props.imageOne} alt="First slide" />
                 </div>
                 <div className="carousel-img carousel-item">
-                    <img className="carousel-img d-block w-100" src="https://www.elegantthemes.com/blog/wp-content/uploads/2017/07/Git-and-Github-Featured-Image.png" alt="Second slide" />
+                    <img className="carousel-img d-block w-100" src={this.props.imageTwo} alt="Second slide" />
                 </div>
                 <div className="carousel-img carousel-item">
-                    <img className="carousel-img d-block w-100" src="https://5.imimg.com/data5/MB/AT/GLADMIN-8064455/web-design-solutions-service-500x500.png" alt="Third slide" />
+                    <img className="carousel-img d-block w-100" src={this.props.imageThree} alt="Third slide" />
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

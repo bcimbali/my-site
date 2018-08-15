@@ -4,6 +4,8 @@
         "github": "https://github.com/bcimbali/my-neighborhood-health-3",
         "name": "My Neighborhood Health",
         "image": "./images/optimized/my_neighborhood_health_optimized.jpg",
+        "imageTwo": "./images/optimized/my_neighborhood_health_two_optimized.jpg",
+        "imageThree": "./images/optimized/my_neighborhood_health_three_optimized.jpg",
         "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data, type of chemicals stored, and if any chemicals are known carcinogens.",
         "live": "https://aqueous-waters-33828.herokuapp.com/"
     },
@@ -12,6 +14,8 @@
         "github": "https://github.com/bcimbali/Hangman-Game",
         "name": "Cartographer Hangman",
         "image": "./images/optimized/cartographer_hangman_optimized.jpg",
+        "imageTwo": "./images/optimized/cartographer_hangman_two_optimized.jpg",
+        "imageThree": "./images/optimized/cartographer_hangman_three_optimized.jpg",
         "description": "A web app hangman game about all 50 states (and D.C.). Each correct guess illuminates a state. If you are stuck, click for a hint!",
         "live": "https://bcimbali.github.io/Hangman-Game/"
     },
@@ -20,6 +24,8 @@
         "github": "https://github.com/bcimbali/clicky-game",
         "name": "Twin Peaks Memory Game",
         "image": "./images/optimized/twin-peaks-memory-game-optimized.jpg",
+        "imageTwo": "./images/optimized/twin-peaks-memory-game-two-optimized.jpg",
+        "imageThree": "./images/optimized/twin-peaks-memory-game-three-optimized.jpg",
         "description": "A fun click game made with React. Click on a Twin Peaks character only once, but not twice, to win!",
         "live": "https://bcimbali.github.io/clicky-game/"
     },
@@ -28,6 +34,8 @@
         "github": "https://github.com/bcimbali/news-scraper",
         "name": "RA Event Listing Scraper",
         "image": "./images/optimized/RA_events_scraper_optimized.jpg",
+        "imageTwo": "./images/optimized/RA_events_scraper_two_optimized.jpg",
+        "imageThree": "./images/optimized/RA_events_scraper_three_optimized.jpg",
         "description": "A web app that scrapes Resident Advisor events in the Chicago area, saves them to a database, and allows the user to add a note.",
         "live": "https://enigmatic-stream-99192.herokuapp.com/"
     },
@@ -35,7 +43,9 @@
         "id": 5,
         "name": "LIRI",
         "github": "https://github.com/bcimbali/liri-node-app",
-        "image": "./images/optimized/liri-optimized.jpg",
+        "image": "./images/term.svg",
+        "imageTwo": "./images/term.svg",
+        "imageThree": "./images/term.svg",
         "description": "A CLI that displays latest tweets, gets song info from Spotify, gathers info on a movie, or perform tasks from a text file.",
         "live": "https://github.com/bcimbali/liri-node-app"
     },
@@ -44,6 +54,8 @@
         "name": "Recipe++",
         "github": "https://github.com/bcimbali/Recipe",
         "image": "./images/optimized/recipe++-optimized.jpg",
+        "imageTwo": "./images/optimized/recipe++-restaurant-optimized.jpg",
+        "imageThree": "./images/optimized/recipe++-landing-optimized.jpg",
         "description": "Recipe++. It is a web app to search recipes and allows users to input the ingredients they have at home. You can also search the map for nearby restaurants.",
         "live": "https://bcimbali.github.io/Recipe/"
     }

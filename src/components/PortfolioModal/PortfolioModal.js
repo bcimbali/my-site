@@ -14,6 +14,8 @@ class PortfolioModal extends Component  {
             <div className="bg-color modal-body">
                 <Carousel 
                     imageOne={this.props.image}
+                    imageTwo={this.props.imageTwo}
+                    imageThree={this.props.imageThree}
                 />
                 {/* <img className="rounded thumbnail img-fluid" src={this.props.image} /> */}
                 
