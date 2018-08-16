@@ -80,14 +80,19 @@ button {
   border: none;
   color: black;
 }
-.max-h {
-  height: auto;
+.min-h {
+  /* height: auto; */
+  min-height: 40vh;
   /* max-height: 220px; */
   /* max-height: 10%; */
   /* max-width: 400px; */
 }
+.max-w {
+  max-width: 30vw;
+}
 .portfolio-card-font {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .middle {
   transition: .5s ease;
@@ -187,7 +192,8 @@ button {
   height: auto;
   min-height: 200px;
   max-height: 200px;
-  width: 100%;
+  min-width: 75%;
+  max-width: 100%;
 }
 .margin-space {
   margin-top: 6vh;
@@ -536,6 +542,15 @@ a {
 
 
 /* Media Queries */
+@media screen and (max-width: 1080px) {
+  .min-h {
+    min-height: 44vh;
+  }
+  .portfolio-card-font {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .about-font {
     font-size: 1rem;
@@ -545,6 +560,12 @@ a {
   }
   .main-font {
     font-size: 2rem;
+  }
+  .max-w {
+    max-width: 90vw;
+  }
+  .min-h {
+    min-height: 30vh;
   }
   .name-font {
     font-size: 1rem;
@@ -556,3 +577,4 @@ a {
     font-size: 1.25rem;
   }
 }
+

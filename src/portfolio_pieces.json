@@ -3,10 +3,10 @@
         "id": 1,
         "github": "https://github.com/bcimbali/my-neighborhood-health-3",
         "name": "My Neighborhood Health",
-        "image": "./images/optimized/my_neighborhood_health_optimized.jpg",
+        "image": "./images/water-test.jpg",
         "imageTwo": "./images/optimized/my_neighborhood_health_two_optimized.jpg",
         "imageThree": "./images/optimized/my_neighborhood_health_three_optimized.jpg",
-        "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data, type of chemicals stored, and if any chemicals are known carcinogens.",
+        "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data.",
         "live": "https://aqueous-waters-33828.herokuapp.com/"
     },
     {   
