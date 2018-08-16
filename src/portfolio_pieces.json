@@ -43,9 +43,9 @@
         "id": 5,
         "name": "LIRI",
         "github": "https://github.com/bcimbali/liri-node-app",
-        "image": "./images/term.svg",
-        "imageTwo": "./images/term.svg",
-        "imageThree": "./images/term.svg",
+        "image": "./images/optimized/liri-optimized.jpg",
+        "imageTwo": "./images/optimized/liri-optimized.jpg",
+        "imageThree": "./images/optimized/liri-optimized.jpg",
         "description": "A CLI that displays latest tweets, gets song info from Spotify, gathers info on a movie, or perform tasks from a text file.",
         "live": "https://github.com/bcimbali/liri-node-app"
     },
