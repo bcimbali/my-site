@@ -10,11 +10,11 @@ class PortfolioCard extends Component  {
     return (
 
         <div className="col-md-4">
-                <div data-aos="fade-left" className='border border-dark bg-color max-h mx-auto my-2 portfolio-card rounded'> 
+                <div data-aos="fade-left" className='border border-dark border-thick bg-card max-h mx-auto my-2 portfolio-card rounded'> 
                   <img className="image img-fluid max-h-img" src={this.props.image}/>
                   <div className="border border-dark middle rounded">
                   <div className="text" onClick={() => {this.props.modalHandler(this.props.id - 1)}}>
-                    Learn More
+                    Check it Out
                   </div>
                   </div>
                   <p className="p-2 portfolio-card-font">{this.props.name}</p>

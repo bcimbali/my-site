@@ -62,7 +62,7 @@ class App extends Component {
           <div className='bg-color page container-fluid'> 
             <div className="d-flex display-3 justify-content-center h-75 row align-items-center text-center main-font">
                 <div className="col fade-in">
-                  Hello, I'm Brett Cimbalik. I'm a front-end developer.
+                  Hey, I'm Brett Cimbalik. I'm a front-end developer.
                 </div>
             </div>
             <div className="d-flex display-3 justify-content-center h-25 row  text-center main-font">

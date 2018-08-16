@@ -50,6 +50,14 @@ button {
 .bg-color {
   background-color: #EFCDB2;
 }
+.bg-card {
+  background: #334d50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(131, 195, 248, 0.5), #EFCDB2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(131, 195, 248, 0.5), #EFCDB2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.border-thick {
+  border-width: 4px;
+}
 .carousel-img {
   /* height: 200px; */
   height: 30vh;
@@ -92,7 +100,7 @@ button {
   text-align: center;
 }
 .text {
-  background-color: black;
+  background-color: rgb(58, 59, 59);
   color: #EFCDB2;
   font-size: 16px;
   padding: 16px 32px;
@@ -173,6 +181,7 @@ button {
 .max-h-img {
   /* height: 30vh; */
   height: auto;
+  min-height: 200px;
   max-height: 200px;
   width: 100%;
 }
@@ -272,7 +281,7 @@ button {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 0px rgb(34, 37, 41);
+  box-shadow: 0 0 0px rgb(58, 59, 59);
   position: relative;
   overflow: hidden;
 }
@@ -283,7 +292,7 @@ button {
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: rgb(34, 37, 41);
+  background: rgb(58, 59, 59);
   height: 3px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
