@@ -22,9 +22,9 @@ class PortfolioModal extends Component  {
                 <p>{this.props.description}</p>
             </div>
             <div className="bg-color border-top-0 justify-content-between modal-footer">
-                <a href={this.props.live} target="_blank" ><i class="fas fa-2x fa-desktop modal-icon"></i></a>
-                <a href={this.props.github} target="_blank" ><i class="fab fa-2x fa-github-alt modal-icon"></i></a>
-                <button className="bg-color modal-icon remove-bootstrap-glow" onClick={this.props.toggle}>
+                <a href={this.props.live} target="_blank" ><i class="fas fa-2x fa-desktop hvr-wobble-skew modal-icon"></i></a>
+                <a href={this.props.github} target="_blank" ><i class="fab fa-2x fa-github-alt hvr-wobble-skew modal-icon"></i></a>
+                <button className="bg-color modal-icon hvr-wobble-skew" onClick={this.props.toggle}>
                     <i className="fas fa-2x fa-times"></i>
                 </button>
             </div>
