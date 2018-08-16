@@ -108,6 +108,9 @@ button {
 .image {
   opacity: 1;
 }
+.shadow {
+  box-shadow: 0 0 10px rgb(58, 59, 59);
+}
 
 .remove-bootstrap-glow {
   outline: none;
