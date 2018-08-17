@@ -3,9 +3,9 @@
         "id": 1,
         "github": "https://github.com/bcimbali/my-neighborhood-health-3",
         "name": "My Neighborhood Health",
-        "image": "./images/my_neighborhood_health_3.PNG",
-        "imageTwo": "./images/optimized/my_neighborhood_health_two_optimized.jpg",
-        "imageThree": "./images/optimized/my_neighborhood_health_three_optimized.jpg",
+        "image": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_663/v1534535070/Portfolio/my-neighborhood-health-3-retina.png",
+        "imageTwo": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_676/v1534535641/Portfolio/my-neighborhood-health-3-comm-retina.png",
+        "imageThree": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534535631/Portfolio/my-neighborhood-health-3-login-retina.png",
         "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data.",
         "live": "https://aqueous-waters-33828.herokuapp.com/"
     },
