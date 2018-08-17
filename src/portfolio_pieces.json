@@ -4,7 +4,7 @@
         "github": "https://github.com/bcimbali/my-neighborhood-health-3",
         "name": "My Neighborhood Health",
         "image": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_663/v1534535070/Portfolio/my-neighborhood-health-3-retina.png",
-        "imageTwo": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_676/v1534535641/Portfolio/my-neighborhood-health-3-comm-retina.png",
+        "imageTwo": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534535641/Portfolio/my-neighborhood-health-3-comm-retina.png",
         "imageThree": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534535631/Portfolio/my-neighborhood-health-3-login-retina.png",
         "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data.",
         "live": "https://aqueous-waters-33828.herokuapp.com/"
@@ -13,9 +13,9 @@
         "id": 2,
         "github": "https://github.com/bcimbali/Hangman-Game",
         "name": "Cartographer Hangman",
-        "image": "./images/optimized/cartographer_hangman_optimized.jpg",
-        "imageTwo": "./images/optimized/cartographer_hangman_two_optimized.jpg",
-        "imageThree": "./images/optimized/cartographer_hangman_three_optimized.jpg",
+        "image": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534536507/Portfolio/carographer-hangman-retina-1.png",
+        "imageTwo": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534536505/Portfolio/cartographer-hangman-retina-2.png",
+        "imageThree": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534536499/Portfolio/cartographer-hangman-retina-3.png",
         "description": "A web app hangman game about all 50 states (and D.C.). Each correct guess illuminates a state. If you are stuck, click for a hint!",
         "live": "https://bcimbali.github.io/Hangman-Game/"
     },
