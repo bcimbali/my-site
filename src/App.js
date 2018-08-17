@@ -61,7 +61,7 @@ class App extends Component {
         <ScrollableAnchor className="w-100" id={'section1'}>
           <div className='bg-color page container-fluid'> 
             <div className="d-flex display-3 justify-content-center h-75 row align-items-center text-center main-font">
-                <div className="col fade-in">
+                <div className="col fade-in gray-font">
                   Hey, I'm Brett Cimbalik. I'm a front-end developer.
                 </div>
             </div>
@@ -80,7 +80,7 @@ class App extends Component {
               {/* </div> */}
             </div>
             <div className="d-flex display-3 justify-content-center h-50 row text-center main-font">
-              <div data-aos="fade-left" className='about-font bg-color col'>
+              <div data-aos="fade-left" className='about-font bg-color col gray-font'>
                 I'm a web developer and programmer based in Chicago, IL. <br></br><br></br>
                 I make web applications, usually with the MERN stack. I primarily use Javascript, but learning a new language or framework isn't a hassle. I have several years of programming experience and am rather comfortable with front-end or back-end development.
               </div>
@@ -120,7 +120,7 @@ class App extends Component {
           <div className='bg-color page container-fluid'> 
             <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">  
               <div data-aos="fade-right" className='bg-color'> 
-                <p className="contact-font">Say hello: <br></br><br></br>
+                <p className="contact-font gray-font">Say hello: <br></br><br></br>
                 hello [at] brettcimbalik [dot] com</p>
               </div>
             </div>

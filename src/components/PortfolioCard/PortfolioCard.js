@@ -10,8 +10,8 @@ class PortfolioCard extends Component  {
     return (
 
         <div className="col-md-4">
-                <div data-aos="fade-left" className='border border-dark border-thick bg-card min-h max-w mx-auto my-3 portfolio-card rounded shadow'> 
-                  <img className="image img-fluid max-h-img p-2" src={this.props.image}/>
+                <div data-aos="fade-left" className='min-h max-w mx-auto my-3 portfolio-card rounded'> 
+                  <img className="image img-fluid max-h-img p-2 rounded" src={this.props.image}/>
                   <div className="border border-dark middle rounded">
                   <div className="text" onClick={() => {this.props.modalHandler(this.props.id - 1)}}>
                     Check it Out

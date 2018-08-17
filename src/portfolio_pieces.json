@@ -3,7 +3,7 @@
         "id": 1,
         "github": "https://github.com/bcimbali/my-neighborhood-health-3",
         "name": "My Neighborhood Health",
-        "image": "./images/water-test.jpg",
+        "image": "./images/my_neighborhood_health_3.PNG",
         "imageTwo": "./images/optimized/my_neighborhood_health_two_optimized.jpg",
         "imageThree": "./images/optimized/my_neighborhood_health_three_optimized.jpg",
         "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data.",
@@ -43,7 +43,7 @@
         "id": 5,
         "name": "LIRI",
         "github": "https://github.com/bcimbali/liri-node-app",
-        "image": "./images/optimized/liri-optimized.jpg",
+        "image": "./images/liri-retina.png",
         "imageTwo": "./images/optimized/liri-optimized.jpg",
         "imageThree": "./images/optimized/liri-optimized.jpg",
         "description": "A CLI that displays latest tweets, gets song info from Spotify, gathers info on a movie, or perform tasks from a text file.",
@@ -56,7 +56,7 @@
         "image": "./images/optimized/recipe++-optimized.jpg",
         "imageTwo": "./images/optimized/recipe++-restaurant-optimized.jpg",
         "imageThree": "./images/optimized/recipe++-landing-optimized.jpg",
-        "description": "Recipe++. It is a web app to search recipes and allows users to input the ingredients they have at home. You can also search the map for nearby restaurants.",
+        "description": "A web app to search recipes and allows users to input the ingredients they have at home. You can also search the map for nearby restaurants.",
         "live": "https://bcimbali.github.io/Recipe/"
     }
 ]
