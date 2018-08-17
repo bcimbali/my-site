@@ -33,9 +33,9 @@
         "id": 4,
         "github": "https://github.com/bcimbali/news-scraper",
         "name": "RA Event Listing Scraper",
-        "image": "./images/optimized/RA_events_scraper_optimized.jpg",
-        "imageTwo": "./images/optimized/RA_events_scraper_two_optimized.jpg",
-        "imageThree": "./images/optimized/RA_events_scraper_three_optimized.jpg",
+        "image": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534537934/Portfolio/ra-event-listing-scraper-retina-1.png",
+        "imageTwo": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534537949/Portfolio/ra-event-listing-scraper-retina-2.png",
+        "imageThree": "http://res.cloudinary.com/bcimbali/image/upload/c_scale,w_630/v1534537946/Portfolio/ra-event-listing-scraper-retina-3.png",
         "description": "A web app that scrapes Resident Advisor events in the Chicago area, saves them to a database, and allows the user to add a note.",
         "live": "https://enigmatic-stream-99192.herokuapp.com/"
     },
