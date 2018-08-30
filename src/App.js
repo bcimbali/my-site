@@ -30,21 +30,21 @@ class App extends Component {
   toggle() {
     const currentState = this.state.details;
     this.setState({ details: !currentState });
-    console.log('After toggle works: ', this.state.details);
+    // console.log('After toggle works: ', this.state.details);
   }
 
   // Populates the modal with the currently selected portfolio piece
   populateModal(i) {
     // return portfolio_pieces[info];
-    console.log("populateModal this: ", this);
+    // console.log("populateModal this: ", this);
     this.setState({ selected_piece: portfolio_pieces[i]})
-    console.log("selected piece is now....: " , this.state.selected_piece)
+    // console.log("selected piece is now....: " , this.state.selected_piece)
   }
 
   // Wrapper function for "Learn More" onClick handler
   modalHandler(event) {
     // console.log("this in modal handler: ", this);
-    console.log("this is the event: ", event);
+    // console.log("this is the event: ", event);
     this.toggle();
     this.populateModal(event);
   }

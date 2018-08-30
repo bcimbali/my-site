@@ -22,7 +22,7 @@ class PortfolioCard extends Component  {
                 </div>
                 
                 {/* {console.log("props for PortfolioCard", this.props)} */}
-                {console.log("this in PortflioCard", this)}
+                {/* {console.log("this in PortflioCard", this)} */}
         </div>
       );
     };
