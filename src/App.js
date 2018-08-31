@@ -76,7 +76,7 @@ class App extends Component {
           <div className='bg-color page container-fluid'> 
             <div className="h-50 row align-items-center">
               {/* <div className='bg-color col'>  */}
-                <img data-aos="fade-right"  className="border-dark img-resp mx-auto rounded-circle" alt="Brett" src="./images/Profile_Pic.jpg"></img>
+                <img data-aos="fade-right"  className="border-dark img-resp mx-auto rounded-circle" alt="Brett" src="http://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco/v1534430386/Portfolio/Profile_Pic.jpg"></img>
               {/* </div> */}
             </div>
             <div className="d-flex display-3 justify-content-center h-50 row text-center main-font">
