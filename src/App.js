@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import PortfolioCard from "./components/PortfolioCard";
 import PortfolioModal from './components/PortfolioModal';
-import { Parallax, ParallaxLayer } from 'react-spring'
+// import { Parallax, ParallaxLayer } from 'react-spring'
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
 import AOS from 'aos';
