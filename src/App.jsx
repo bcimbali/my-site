@@ -29,38 +29,32 @@ class App extends Component {
     }
   }
 
+  componentDidMount() {
+    AOS.init();
+  }
+
   // Toggles the pop-up window state btwn true and false.
   toggle() {
     const currentState = this.state.details;
     this.setState({details: !currentState});
-    // console.log('After toggle works: ', this.state.details);
   }
 
   // Populates the modal with the currently selected portfolio piece
   populateModal(i) {
-    // return portfolio_pieces[info];
-    // console.log("populateModal this: ", this);
     this.setState({selected_piece: portfolio_pieces[i]})
-    // console.log("selected piece is now....: " , this.state.selected_piece)
   }
 
-  // Wrapper function for "Learn More" onClick handler
+  // Wrapper function for the "Check it Out" onClick handler
   modalHandler(event) {
-    // console.log("this in modal handler: ", this);
-    // console.log("this is the event: ", event);
     this.toggle();
     this.populateModal(event);
-  }
-
-  componentDidMount() {
-    AOS.init();
   }
 
   render() {
     configureAnchors({offset: -50, scrollDuration: 700})
     return (
       <div className="body">
-        <Navbar className="w-100"/>
+        <Navbar className="w-100" />
         <ScrollableAnchor className="w-100" id={'section1'}>
           <div className="bg-color page container-fluid"> 
             <div className="d-flex display-3 justify-content-center h-75 row align-items-center text-center main-font">
