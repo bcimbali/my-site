@@ -1,1 +1,1 @@
-export { default } from "./PortfolioModal.jsx";
+export {default} from './PortfolioModal.jsx';

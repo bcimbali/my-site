@@ -1,16 +1,19 @@
-import React, { Component } from 'react';
 import './App.css';
-// import { Parallax, Background } from 'react-parallax';
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import PortfolioCard from "./components/PortfolioCard";
-import PortfolioModal from './components/PortfolioModal';
-// import { Parallax, ParallaxLayer } from 'react-spring'
-import ScrollableAnchor from 'react-scrollable-anchor';
-import { configureAnchors } from 'react-scrollable-anchor';
-import AOS from 'aos';
-import portfolio_pieces from "./portfolio_pieces.json";
 import 'aos/dist/aos.css';
+
+import React, {Component} from 'react';
+
+import AOS from 'aos';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import PortfolioCard from './components/PortfolioCard';
+import PortfolioModal from './components/PortfolioModal';
+import ScrollableAnchor from 'react-scrollable-anchor';
+import {configureAnchors} from 'react-scrollable-anchor';
+import portfolio_pieces from './portfolio_pieces.json';
+
+// import { Parallax, Background } from 'react-parallax';
+// import { Parallax, ParallaxLayer } from 'react-spring'
 
 class App extends Component {
 
@@ -29,7 +32,7 @@ class App extends Component {
   // Toggles the pop-up window state btwn true and false.
   toggle() {
     const currentState = this.state.details;
-    this.setState({ details: !currentState });
+    this.setState({details: !currentState});
     // console.log('After toggle works: ', this.state.details);
   }
 
@@ -37,7 +40,7 @@ class App extends Component {
   populateModal(i) {
     // return portfolio_pieces[info];
     // console.log("populateModal this: ", this);
-    this.setState({ selected_piece: portfolio_pieces[i]})
+    this.setState({selected_piece: portfolio_pieces[i]})
     // console.log("selected piece is now....: " , this.state.selected_piece)
   }
 
@@ -56,10 +59,10 @@ class App extends Component {
   render() {
     configureAnchors({offset: -50, scrollDuration: 700})
     return (
-      <div className='body'>
+      <div className="body">
         <Navbar className="w-100"/>
         <ScrollableAnchor className="w-100" id={'section1'}>
-          <div className='bg-color page container-fluid'> 
+          <div className="bg-color page container-fluid"> 
             <div className="d-flex display-3 justify-content-center h-75 row align-items-center text-center main-font">
                 <div className="col fade-in gray-font">
                   Hey, I'm Brett Cimbalik. I'm a front-end developer.
@@ -73,14 +76,14 @@ class App extends Component {
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor className="w-100" id={'section2'}>
-          <div className='bg-color page container-fluid'> 
+          <div className="bg-color page container-fluid"> 
             <div className="h-50 row align-items-center">
               {/* <div className='bg-color col'>  */}
                 <img data-aos="fade-right"  className="border-dark img-resp mx-auto rounded-circle" alt="Brett" src="https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco/v1534430386/Portfolio/Profile_Pic.jpg"></img>
               {/* </div> */}
             </div>
             <div className="d-flex display-3 justify-content-center h-50 row text-center main-font">
-              <div data-aos="fade-left" className='about-font bg-color col gray-font'>
+              <div data-aos="fade-left" className="about-font bg-color col gray-font">
                 I'm a web developer and programmer based in Chicago, IL. <br></br><br></br>
                 I make web applications, usually with the MERN stack. I primarily use Javascript, but learning a new language or framework isn't a hassle. I have several years of programming experience and am rather comfortable with front-end or back-end development.
               </div>
@@ -88,7 +91,7 @@ class App extends Component {
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section3'}>
-          <div className='bg-color page container-fluid h-100'> 
+          <div className="bg-color page container-fluid h-100"> 
             <div className="d-flex justify-content-around row h-100 align-items-center text-center">
               {this.state.portfolio_pieces.map(piece =>  (
                 <PortfolioCard 
@@ -117,9 +120,9 @@ class App extends Component {
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={'section4'}>
-          <div className='bg-color page container-fluid'> 
+          <div className="bg-color page container-fluid"> 
             <div className="d-flex display-3 justify-content-center h-100 row align-items-center text-center main-font">  
-              <div data-aos="fade-right" className='bg-color'> 
+              <div data-aos="fade-right" className="bg-color"> 
                 <p className="contact-font gray-font">Say hello: <br></br><br></br>
                 hello [at] brettcimbalik [dot] com</p>
               </div>

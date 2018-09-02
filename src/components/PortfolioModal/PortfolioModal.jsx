@@ -1,10 +1,10 @@
-import React from "react";
-import Modal from 'react-bootstrap4-modal';
 import Carousel from '../Carousel';
+import Modal from 'react-bootstrap4-modal';
+import React from 'react';
 
 function PortfolioModal(props)  {
   return (
-    <Modal className="" visible={props.isOpen} onClickBackdrop={props.toggle}>
+    <Modal visible={props.isOpen} onClickBackdrop={props.toggle}>
       <div className="bg-color border-bottom-0 justify-content-center modal-header mx-auto w-100">
           <h4 className="font-weight-bold modal-title">{props.name}</h4>
       </div>

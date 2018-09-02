@@ -1,1 +1,1 @@
-export { default } from "./PortfolioCard.jsx";
+export {default} from './PortfolioCard.jsx';
