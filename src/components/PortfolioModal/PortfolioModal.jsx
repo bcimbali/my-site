@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from 'react-bootstrap4-modal';
-import Carousel from './../Carousel';
+import Carousel from '../Carousel';
 
 function PortfolioModal(props)  {
   return (
