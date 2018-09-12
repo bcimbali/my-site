@@ -1,7 +1,10 @@
 import React from 'react';
 
-function Carousel(props)  {
-    
+/**
+ * hw idea: what if I managed the carosel state, got rid of bootstrap's carosel thing
+ */
+function Carousel({ images = [], id })  {
+    // console.log('props are: ' ,props);
   return (
     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators">
@@ -10,15 +13,17 @@ function Carousel(props)  {
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner">
-          <div className="carousel-img carousel-item active">
-              <img className="carousel-img d-block w-100" src={props.imageOne} alt="First slide" />
-          </div>
-          <div className="carousel-img carousel-item">
-              <img className="carousel-img d-block w-100" src={props.imageTwo} alt="Second slide" />
-          </div>
-          <div className="carousel-img carousel-item">
-              <img className="carousel-img d-block w-100" src={props.imageThree} alt="Third slide" />
-          </div>
+          {images.map((image, i) => (
+            <div 
+              className={`carousel-img carousel-item ${i === 0 ? 'active' : ''}`}
+              key={`${i}-${id}`}
+            >
+              <img 
+                className="carousel-img d-block w-100" 
+                src={image} alt="First slide" 
+              />
+            </div>
+          ))}
       </div>
       <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>

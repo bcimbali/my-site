@@ -10,6 +10,9 @@ import PortfolioCard from './components/PortfolioCard';
 import PortfolioModal from './components/PortfolioModal';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import {configureAnchors} from 'react-scrollable-anchor';
+/**
+ * hw idea: what if portfolio_pieces came from an ajax request, was loaded into state
+ */
 import portfolio_pieces from './portfolio_pieces.json';
 
 // import { Parallax, Background } from 'react-parallax';
@@ -92,7 +95,7 @@ class App extends Component {
                   key={piece.id}
                   id={piece.id}
                   name={piece.name}
-                  image={piece.image}
+                  image={piece.images[1]}
                   description={piece.description}
                   isOpen={this.state.details}
                   modalHandler={this.modalHandler}
@@ -100,12 +103,10 @@ class App extends Component {
                 />
               ))}
               <PortfolioModal
-                github={this.state.selected_piece.github}
                 isOpen={this.state.details}
+                github={this.state.selected_piece.github}
                 description={this.state.selected_piece.description}
-                image={this.state.selected_piece.image}
-                imageTwo={this.state.selected_piece.imageTwo}
-                imageThree={this.state.selected_piece.imageThree}
+                images={this.state.selected_piece.images}
                 live={this.state.selected_piece.live}
                 toggle={this.toggle}
                 name={this.state.selected_piece.name}

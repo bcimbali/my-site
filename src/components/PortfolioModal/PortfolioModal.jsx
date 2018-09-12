@@ -3,6 +3,7 @@ import Modal from 'react-bootstrap4-modal';
 import React from 'react';
 
 function PortfolioModal(props)  {
+  console.log('portfolio modal props: ', props);
   return (
     <Modal visible={props.isOpen} onClickBackdrop={props.toggle}>
       <div className="bg-color border-bottom-0 justify-content-center modal-header mx-auto w-100">
@@ -10,9 +11,8 @@ function PortfolioModal(props)  {
       </div>
       <div className="bg-color modal-body">
         <Carousel 
-            imageOne={props.image}
-            imageTwo={props.imageTwo}
-            imageThree={props.imageThree}
+            images={props.images}
+            id={props.id}
         />            
         <p>{props.description}</p>
       </div>
