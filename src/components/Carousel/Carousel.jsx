@@ -4,7 +4,6 @@ import React from "react";
  * hw idea: what if I managed the carosel state, got rid of bootstrap's carosel thing
  */
 function Carousel({ images = [], id }) {
-  // console.log('props are: ' ,props);
   return (
     <div
       id="carouselExampleIndicators"

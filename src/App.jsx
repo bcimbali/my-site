@@ -15,9 +15,6 @@ import { configureAnchors } from "react-scrollable-anchor";
  */
 import portfolio_pieces from "./portfolio_pieces.json";
 
-// import { Parallax, Background } from 'react-parallax';
-// import { Parallax, ParallaxLayer } from 'react-spring'
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -53,7 +50,7 @@ class App extends Component {
   }
 
   render() {
-    const { details, selected_piece} = this.state;
+    const { details, selected_piece } = this.state;
     configureAnchors({ offset: -50, scrollDuration: 700 });
     return (
       <div className="body">
