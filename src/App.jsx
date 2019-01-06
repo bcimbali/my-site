@@ -53,6 +53,7 @@ class App extends Component {
   }
 
   render() {
+    const { details, selected_piece} = this.state;
     configureAnchors({ offset: -50, scrollDuration: 700 });
     return (
       <div className="body">
@@ -116,13 +117,13 @@ class App extends Component {
                 />
               ))}
               <PortfolioModal
-                isOpen={this.state.details}
-                github={this.state.selected_piece.github}
-                description={this.state.selected_piece.description}
-                images={this.state.selected_piece.images}
-                live={this.state.selected_piece.live}
+                isOpen={details}
+                github={selected_piece.github}
+                description={selected_piece.description}
+                images={selected_piece.images}
+                live={selected_piece.live}
                 toggle={this.toggle}
-                name={this.state.selected_piece.name}
+                name={selected_piece.name}
               />
             </div>
           </div>
