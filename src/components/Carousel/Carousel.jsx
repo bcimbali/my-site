@@ -1,6 +1,7 @@
 import React from "react";
 
 /**
+ * Image carousel inside portfolio modal
  * hw idea: what if I managed the carosel state, got rid of bootstrap's carosel thing
  */
 function Carousel({ images = [], id }) {

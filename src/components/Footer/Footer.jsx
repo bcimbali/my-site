@@ -1,5 +1,6 @@
 import React from "react";
 
+/** Footer for site */
 function Footer() {
   return (
     <footer className="footer d-flex justify-content-center">

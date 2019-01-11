@@ -1,5 +1,6 @@
 import React from "react";
 
+/** Navigation bar for site */
 function Navbar() {
   return (
     <nav className="bg-color border-bottom border-dark d-flex navbar flex-nowrap gray-font justify-content-between navbar-expand-lg navbar-light fixed-top">

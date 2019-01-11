@@ -1,5 +1,6 @@
 import React from "react";
 
+/** Holds each portfolio piece, generated from portfolio_pieces.json */
 function PortfolioCard({ description, id, image, modalHandler, name }) {
   return (
     <div className="col-md-4">

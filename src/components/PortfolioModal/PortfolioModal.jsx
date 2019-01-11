@@ -2,6 +2,7 @@ import Carousel from "../Carousel";
 import Modal from "react-bootstrap4-modal";
 import React from "react";
 
+/** Modal when "Check it Out" is clicked on Portfolio Card */
 function PortfolioModal({
   description,
   github,
