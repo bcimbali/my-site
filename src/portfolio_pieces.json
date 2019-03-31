@@ -49,15 +49,15 @@
   },
   {
     "id": 5,
-    "name": "LIRI",
+    "name": "Marketing Portfolio Site",
     "images": [
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534538487/Portfolio/liri-retina-1.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534538487/Portfolio/liri-retina-2.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534538503/Portfolio/liri-retina-3.png"
+      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1554072663/Portfolio/ck-site-retina-2.png",
+      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1554073751/Portfolio/ck-site-retina-5.png",
+      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco/a_90/v1554074493/Portfolio/ck-site-retina-mobile.jpg"
     ],
-    "github": "https://github.com/bcimbali/liri-node-app",
-    "description": "A CLI that displays latest tweets, gets song info from Spotify, gathers info on a movie, or perform tasks from a text file.",
-    "live": "https://github.com/bcimbali/liri-node-app"
+    "github": "https://github.com/bcimbali/ck-site",
+    "description": "A Portfolio site for content and digital marketing professionals.  Built with Gatsby.js.",
+    "live": "https://kanownik.co"
   },
   {
     "id": 6,
