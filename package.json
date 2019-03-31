@@ -27,6 +27,7 @@
   ],
   "devDependencies": {
     "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "1.15.3"
+    "prettier": "1.15.3",
+    "react-testing-library": "^6.0.3"
   }
 }
