@@ -58,7 +58,7 @@ class App extends Component {
         <ScrollableAnchor className="w-100" id={"section1"}>
           <div className="bg-color page container-fluid">
             <div className="d-flex display-3 justify-content-center h-75 row align-items-center text-center main-font">
-              <div className="col fade-in gray-font">
+              <div className="col fade-in gray-font" data-testid="name-intro">
                 Hey, I'm Brett Cimbalik. I'm a front-end developer.
               </div>
             </div>
@@ -85,6 +85,7 @@ class App extends Component {
               <div
                 data-aos="fade-left"
                 className="about-font bg-color col gray-font"
+                data-testid="about-text"
               >
                 I'm a web developer and programmer based in Chicago, IL. <br />
                 <br />I make web applications, usually with the MERN stack. I
