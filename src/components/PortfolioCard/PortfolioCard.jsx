@@ -10,6 +10,7 @@ function PortfolioCard({ description, id, image, modalHandler, name }) {
       >
         <img
           className="image img-fluid max-h-img p-2 rounded"
+          data-testid="portfolio-image"
           src={image}
           alt="portfolio piece"
         />
@@ -23,7 +24,9 @@ function PortfolioCard({ description, id, image, modalHandler, name }) {
             Check it Out
           </div>
         </div>
-        <h3 className="p-2 portfolio-card-font">{name}</h3>
+        <h3 className="p-2 portfolio-card-font" data-testid="portfolio-name">
+          {name}
+        </h3>
         <p className="p-2">{description}</p>
       </div>
     </div>
