@@ -10,7 +10,7 @@
     "react": "^16.8.6",
     "react-bootstrap4-modal": "^1.7.1",
     "react-dom": "^16.8.6",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^3.0.1",
     "react-scrollable-anchor": "^0.6.1"
   },
   "scripts": {
