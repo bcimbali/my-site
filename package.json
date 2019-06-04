@@ -6,9 +6,9 @@
     "ajv": "^6.10.0",
     "aos": "^2.3.4",
     "hover.css": "^2.3.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "react": "^16.8.6",
-    "react-bootstrap4-modal": "^1.7.0",
+    "react-bootstrap4-modal": "^1.7.1",
     "react-dom": "^16.8.6",
     "react-scripts": "^2.1.8",
     "react-scrollable-anchor": "^0.6.1"
@@ -26,8 +26,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^3.1.0",
     "prettier": "1.15.3",
-    "react-testing-library": "^6.0.3"
+    "react-testing-library": "^6.1.2"
   }
 }
