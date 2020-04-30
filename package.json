@@ -6,7 +6,7 @@
     "ajv": "^6.10.2",
     "aos": "^2.3.4",
     "hover.css": "^2.3.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "^16.9.0",
     "react-bootstrap4-modal": "^1.7.2",
     "react-dom": "^16.9.0",
