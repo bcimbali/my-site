@@ -5,7 +5,7 @@
     "name": "bc-010",
     "images": [
       "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1543180966/bc-010/bc-010_iPad.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1543174973/bc-010/bc-010_desktop.png",
+      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1593900403/bc-010/bc-010-07-04-2020.png",
       "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/b_rgb:fef9ff/v1543179906/bc-010/bc-010_iPhone_landscape.png"
     ],
     "description": "A React-based audio mono-synthesizer that you can use in your Chrome web browser. Built with the Tone.js library.",
