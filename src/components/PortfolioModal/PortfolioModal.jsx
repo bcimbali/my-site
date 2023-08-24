@@ -30,7 +30,7 @@ function PortfolioModal({
           <i className="fab fa-2x fa-github-alt hvr-wobble-skew modal-icon" />
         </a>
         <button
-          className="bg-color modal-icon hvr-wobble-skew"
+          className="bg-color modal-icon modal-close hvr-wobble-skew"
           onClick={toggle}
         >
           <i className="fas fa-2x fa-times" />
