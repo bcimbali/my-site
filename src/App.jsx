@@ -100,7 +100,7 @@ class App extends Component {
         <ScrollableAnchor id={"section3"}>
           <div className="bg-color page container-fluid h-100">
             <div className="d-flex justify-content-around row h-100 align-items-center text-center">
-              {this.state.portfolio_pieces.map(piece => (
+              {this.state.portfolio_pieces.map((piece) => (
                 <PortfolioCard
                   key={piece.id}
                   id={piece.id}
