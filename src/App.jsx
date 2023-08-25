@@ -89,7 +89,7 @@ class App extends Component {
               >
                 I'm a web developer and programmer based in Chicago, IL. <br />
                 <br />I make web applications, usually with the MERN stack. I
-                primarily use Javascript, but learning a new language or
+                prefer to work in React/Nextjs, but learning a new language or
                 framework isn't a hassle. I have several years of programming
                 experience and am rather comfortable with front-end or back-end
                 development.
@@ -99,8 +99,8 @@ class App extends Component {
         </ScrollableAnchor>
         <ScrollableAnchor id={"section3"}>
           <div className="bg-color page container-fluid h-100">
-            <div className="d-flex justify-content-around row h-100 align-items-center text-center">
-              {this.state.portfolio_pieces.map(piece => (
+            <div className="d-flex row h-100 align-items-center text-center">
+              {this.state.portfolio_pieces.map((piece) => (
                 <PortfolioCard
                   key={piece.id}
                   id={piece.id}

@@ -56,13 +56,14 @@ body {
   font-size: large;
 }
 
-.body, a {
+/* Comment out custom cursor for now. */
+/* .body, a {
   cursor: url('./black_circle_2.cur'), crosshair;
 }
 
 button {
   cursor: url('./black_circle_2.cur'), crosshair;
-}
+} */
 
 .bg-color {
   background-color: #EFCDB2;
@@ -79,6 +80,10 @@ button {
 .carousel-img {
   /* height: 200px; */
   height: 30vh;
+}
+
+.check-it-out-bttn:hover {
+  cursor: pointer;
 }
 
 .footer {
@@ -132,6 +137,10 @@ button {
   text-align: center;
 }
 
+.modal-close:hover {
+  cursor: pointer;
+}
+
 .text {
   background-color: rgb(58, 59, 59);
   color: #EFCDB2;
@@ -157,6 +166,12 @@ button {
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .portfolio-card:hover .image {

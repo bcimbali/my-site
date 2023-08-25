@@ -22,7 +22,7 @@ function Footer() {
       </a>
       <a
         data-testid="resume"
-        href="https://drive.google.com/file/d/1bVxm7vubNbH8eS0qrormKvvfZagDKLo6/view?usp=sharing"
+        href="https://drive.google.com/file/d/1Flm8I-gMj_q8hS8_AAu3z_Lrs1ceHImL/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
       >

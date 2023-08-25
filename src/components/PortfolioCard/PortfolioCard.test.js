@@ -12,7 +12,7 @@ const portfolioPiece = {
   description: "Test portfolio piece",
   id: "1234",
   image: "test.png",
-  name: "Test Piece"
+  name: "Test Piece",
 };
 
 test("<PortfolioCard /> with portfolio", () => {

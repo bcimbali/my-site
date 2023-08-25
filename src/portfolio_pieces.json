@@ -25,30 +25,6 @@
   },
   {
     "id": 3,
-    "github": "https://github.com/bcimbali/my-neighborhood-health-3",
-    "name": "My Neighborhood Health",
-    "images": [
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534535070/Portfolio/my-neighborhood-health-3-retina.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534535070/Portfolio/my-neighborhood-health-3-retina.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534535631/Portfolio/my-neighborhood-health-3-login-retina.png"
-    ],
-    "description": "A web app that raises awareness of toxic facilities in the United States. Users can click through to find EPA compliance data.",
-    "live": "https://aqueous-waters-33828.herokuapp.com/"
-  },
-  {
-    "id": 4,
-    "github": "https://github.com/bcimbali/news-scraper",
-    "name": "RA Event Listing Scraper",
-    "images": [
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534537934/Portfolio/ra-event-listing-scraper-retina-1.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534537949/Portfolio/ra-event-listing-scraper-retina-2.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534537946/Portfolio/ra-event-listing-scraper-retina-3.png"
-    ],
-    "description": "A web app that scrapes Resident Advisor events in the Chicago area, saves them to a database, and allows the user to add a note.",
-    "live": "https://enigmatic-stream-99192.herokuapp.com/"
-  },
-  {
-    "id": 5,
     "name": "Marketing Portfolio Site",
     "images": [
       "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1554072663/Portfolio/ck-site-retina-2.png",
@@ -58,17 +34,5 @@
     "github": "https://github.com/bcimbali/ck-site",
     "description": "A Portfolio site for content and digital marketing professionals.  Built with Gatsby.js.",
     "live": "https://kanownik.co"
-  },
-  {
-    "id": 6,
-    "name": "Recipe++",
-    "images": [
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1535999349/Portfolio/recipe-retina-3b.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534612358/Portfolio/recipe-retina-1.png",
-      "https://res.cloudinary.com/bcimbali/image/upload/dpr_auto,c_scale,f_auto,q_auto:eco,w_900/v1534612357/Portfolio/recipe-retina-2.png"
-    ],
-    "github": "https://github.com/bcimbali/Recipe",
-    "description": "A web app to search recipes and allows users to input the ingredients they have at home. You can also search the map for nearby restaurants.",
-    "live": "https://bcimbali.github.io/Recipe/"
   }
 ]

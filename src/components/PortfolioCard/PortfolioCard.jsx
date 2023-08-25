@@ -16,7 +16,7 @@ function PortfolioCard({ description, id, image, modalHandler, name }) {
         />
         <div className="border border-dark middle rounded">
           <div
-            className="text"
+            className="check-it-out-bttn text"
             onClick={() => {
               modalHandler(id - 1);
             }}
